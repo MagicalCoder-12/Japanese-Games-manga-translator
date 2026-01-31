@@ -1,0 +1,19 @@
+name: screen-translator
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.11
+  - pip
+  - requests
+  - pyperclip
+  - tk
+  - pillow
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.8
+  - pip:
+    - ollama
